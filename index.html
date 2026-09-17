@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMGSELL - Головна</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <a href="index.html" class="logo">UMGSELL<span>.</span></a>
+
+        <nav>
+            <a href="index.html" class="active">Головна</a>
+            <a href="products.html">Товари</a>
+            <a href="about.html">Про нас</a>
+            <a href="partners.html">Партнери</a>
+        </nav>
+
+        <button class="cart-button" id="openCart">
+            🛒 Кошик (<span id="cartCount">0</span>)
+        </button>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-content">
+            <p class="eyebrow">UMGSELL</p>
+            <h1>Якість<br>наше все</h1>
+            <p>Найкращі товари у інтернеті</p>
+            <a href="products.html" class="main-button">Переглянути товари</a>
+        </div>
+    </section>
+
+    <section class="category-section">
+        <div class="section-heading">
+            <p class="eyebrow">Категорія</p>
+            <h2>Товари</h2>
+        </div>
+
+        <a href="products.html" class="category-card">
+            <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=1200&q=80" alt="Товари">
+            <div>
+                <h3>Товари</h3>
+                <span>Переглянути каталог →</span>
+            </div>
+        </a>
+    </section>
+
+    <section class="about-preview">
+        <div>
+            <p class="eyebrow">Про нас</p>
+            <h2>UMGSELL - Це про якість</h2>
+        </div>
+
+        <div>
+            <p>Про Нас й всяке таке... (Бла-бла-бла-бла)</p>
+            <a href="about.html" class="text-button">Дізнатися більше →</a>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-container">
+        <a href="index.html" class="logo">UMGSELL<span>.</span></a>
+        <p>© 2026 UMGSELL. Усі права захищені.</p>
+    </div>
+</footer>
+
+<div class="cart-overlay" id="cartOverlay">
+    <div class="cart">
+        <div class="cart-header">
+            <h2>Кошик</h2>
+            <button class="close-cart" id="closeCart">×</button>
+        </div>
+
+        <div class="cart-items" id="cartItems"></div>
+
+        <div class="cart-footer">
+            <div class="total-row">
+                <span>Разом:</span>
+                <strong id="cartTotal">0 грн</strong>
+            </div>
+
+            <button class="checkout-button">Оформити замовлення</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

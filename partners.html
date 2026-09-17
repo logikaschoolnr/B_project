@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMGSELL - Партнери</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <a href="index.html" class="logo">UMGSELL<span>.</span></a>
+
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="products.html">Товари</a>
+            <a href="about.html">Про нас</a>
+            <a href="partners.html" class="active">Партнери</a>
+        </nav>
+
+        <button class="cart-button" id="openCart">
+            🛒 Кошик (<span id="cartCount">0</span>)
+        </button>
+    </div>
+</header>
+
+<main>
+    <section class="page-header">
+        <p class="eyebrow">UMGSELL</p>
+        <h1>Партнери</h1>
+        <p>Компанії та люди з якими ми працюємо</p>
+    </section>
+
+    <section class="partners-section">
+        <div class="partners-grid">
+
+            <div class="partner-card">
+                <span>01</span>
+                <h2>Тимофій</h2>
+                <p>:)</p>
+            </div>
+
+            <div class="partner-card partner-card-special">
+                <span>02</span>
+                <h2>СТАТИ ПАРТНЕРОМ</h2>
+                <p>Хочеш співпрацювати з UMGSELL?</p>
+                <a href="mailto:partners@umgsell.com">partners@umgsell.com</a>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-container">
+        <a href="index.html" class="logo">UMGSELL<span>.</span></a>
+        <p>© 2026 UMGSELL. Усі права захищені.</p>
+    </div>
+</footer>
+
+<div class="cart-overlay" id="cartOverlay">
+    <div class="cart">
+        <div class="cart-header">
+            <h2>Кошик</h2>
+            <button class="close-cart" id="closeCart">×</button>
+        </div>
+
+        <div class="cart-items" id="cartItems"></div>
+
+        <div class="cart-footer">
+            <div class="total-row">
+                <span>Разом:</span>
+                <strong id="cartTotal">0 грн</strong>
+            </div>
+
+            <button class="checkout-button">Оформити замовлення</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMGSELL - Товари</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <a href="index.html" class="logo">UMGSELL<span>.</span></a>
+
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="products.html" class="active">Товари</a>
+            <a href="about.html">Про нас</a>
+            <a href="partners.html">Партнери</a>
+        </nav>
+
+        <button class="cart-button" id="openCart">
+            🛒 Кошик (<span id="cartCount">0</span>)
+        </button>
+    </div>
+</header>
+
+<main>
+    <section class="page-header">
+        <p class="eyebrow">UMGSELL</p>
+        <h1>Товари</h1>
+        <p>Хоч й дорожче, но якісніше</p>
+    </section>
+
+    <section class="products-section">
+        <div class="products-grid">
+
+            <article class="product-card" data-name="Телефон" data-category="Техніка">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80" alt="Телефон">
+                </div>
+                <div class="product-info">
+                    <p class="product-category">ТЕХНІКА</p>
+                    <h3>Телефон</h3>
+                    <div class="product-bottom">
+                        <strong>8999 грн</strong>
+                        <button class="add-button" data-name="Телефон" data-price="8999">Додати</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Навушники" data-category="Аудіо">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80" alt="Навушники">
+                </div>
+                <div class="product-info">
+                    <p class="product-category">ТЕХНІКА</p>
+                    <h3>Навушники</h3>
+                    <div class="product-bottom">
+                        <strong>1499 грн</strong>
+                        <button class="add-button" data-name="Навушники" data-price="1499">Додати</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Клавіатура" data-category="Комп'ютери">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80" alt="Клавіатура">
+                </div>
+                <div class="product-info">
+                    <p class="product-category">КОМП'ЮТЕРИ</p>
+                    <h3>Клавіатура</h3>
+                    <div class="product-bottom">
+                        <strong>1199 грн</strong>
+                        <button class="add-button" data-name="Клавіатура" data-price="1199">Додати</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Мишка" data-category="Комп'ютери">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80" alt="Мишка">
+                </div>
+                <div class="product-info">
+                    <p class="product-category">КОМП'ЮТЕРНЕ</p>
+                    <h3>Мишка</h3>
+                    <div class="product-bottom">
+                        <strong>699 грн</strong>
+                        <button class="add-button" data-name="Мишка" data-price="699">Додати</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Ноутбук" data-category="Комп'ютери">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80" alt="Ноутбук">
+                </div>
+                <div class="product-info">
+                    <p class="product-category">КОМП'ЮТЕРНЕ</p>
+                    <h3>Ноутбук</h3>
+                    <div class="product-bottom">
+                        <strong>24999 грн</strong>
+                        <button class="add-button" data-name="Ноутбук" data-price="24999">Додати</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Монітор" data-category="Комп'ютери">
+                <div class="product-image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU3qRaK3gmRzXi0VwaIJ3cFczKFB4gjZ8Xh_OzhoAK7w&s=10" alt="Монітор">
+                </div>
+                <div class="product-info">
+                    <p class="product-category">КОМП'ЮТЕРНЕ</p>
+                    <h3>Монітор</h3>
+                    <div class="product-bottom">
+                        <strong>7499 грн</strong>
+                        <button class="add-button" data-name="Монітор" data-price="7499">Додати</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Колонка" data-category="Аудіо">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=80" alt="Колонка">
+                </div>
+                <div class="product-info">
+                    <p class="product-category">ТЕХНІКА</p>
+                    <h3>Колонка</h3>
+                    <div class="product-bottom">
+                        <strong>1899 грн</strong>
+                        <button class="add-button" data-name="Колонка" data-price="1899">Додати</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Годинник" data-category="Аксесуари">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=800&q=80" alt="Годинник">
+                </div>
+                <div class="product-info">
+                    <p class="product-category">АКСЕСУАРИ</p>
+                    <h3>Годинник</h3>
+                    <div class="product-bottom">
+                        <strong>2299 грн</strong>
+                        <button class="add-button" data-name="Годинник" data-price="2299">Додати</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Лампа" data-category="Для дому">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=800&q=80" alt="Лампа">
+                </div>
+                <div class="product-info">
+                    <p class="product-category">ДЛЯ ДОМУ / ТЕХНІКА</p>
+                    <h3>Лампа</h3>
+                    <div class="product-bottom">
+                        <strong>899 грн</strong>
+                        <button class="add-button" data-name="Лампа" data-price="899">Додати</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Рюкзак" data-category="Аксесуари">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=800&q=80" alt="Рюкзак">
+                </div>
+                <div class="product-info">
+                    <p class="product-category">АКСЕСУАРИ</p>
+                    <h3>Рюкзак</h3>
+                    <div class="product-bottom">
+                        <strong>1299 грн</strong>
+                        <button class="add-button" data-name="Рюкзак" data-price="1299">Додати</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Камера" data-category="Техніка">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80" alt="Камера">
+                </div>
+                <div class="product-info">
+                    <p class="product-category">ТЕХНІКА</p>
+                    <h3>Камера</h3>
+                    <div class="product-bottom">
+                        <strong>12499 грн</strong>
+                        <button class="add-button" data-name="Камера" data-price="12499">Додати</button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Чашка" data-category="Для дому">
+                <div class="product-image">
+                    <img src="https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?auto=format&fit=crop&w=800&q=80" alt="Чашка">
+                </div>
+                <div class="product-info">
+                    <p class="product-category">ДЛЯ ДОМУ</p>
+                    <h3>Чашка</h3>
+                    <div class="product-bottom">
+                        <strong>249 грн</strong>
+                        <button class="add-button" data-name="Чашка" data-price="249">Додати</button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="footer-container">
+        <a href="index.html" class="logo">UMGSELL<span>.</span></a>
+        <p>© 2026 UMGSELL. Усі права захищені.</p>
+    </div>
+</footer>
+
+<div class="cart-overlay" id="cartOverlay">
+    <div class="cart">
+        <div class="cart-header">
+            <h2>Кошик</h2>
+            <button class="close-cart" id="closeCart">×</button>
+        </div>
+
+        <div class="cart-items" id="cartItems"></div>
+
+        <div class="cart-footer">
+            <div class="total-row">
+                <span>Разом:</span>
+                <strong id="cartTotal">0 грн</strong>
+            </div>
+
+            <button class="checkout-button">Оформити замовлення</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
